@@ -1,5 +1,5 @@
 *{
-    max-width: 80%;
+    max-width: 640px;
     font-family: 'Roboto';
     margin: auto;
 }
@@ -34,6 +34,7 @@ form{
     text-align: center;
     border-radius: 16px;
     display: none;
+    max-width: 100%;
 }
 
 input, button{
@@ -53,8 +54,9 @@ button{
 ul{
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 640px;
-    margin: auto;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 ul li{
@@ -64,7 +66,7 @@ ul li{
     font-weight: bold;
     margin-top: 8px;
     list-style: none;
-    padding: 12px;
+    padding: 16px;
     background-color: rgb(215, 231, 245);
     border-radius: 16px;
 }
