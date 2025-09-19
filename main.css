@@ -9,19 +9,21 @@ header{
     text-align: center;
     background-color: rgb(77, 77, 221);
     color: #fff;
+    font-weight: bold;
     border-bottom: 16px solid rgb(4, 78, 124);
     border-radius: 16px;
 }
 
 header h1 {
-    margin: auto;
-    font-size: 46px;
+    font-size: 42px;
     text-transform: uppercase;
-    font-weight: bolder;
+    font-style: italic;
 }
 
 header button{
-    margin-top: 8px;
+    margin-top: 4px;
+    font-size: 12px;
+    padding: 4px 12px;
 }
 
 #cancelar{
