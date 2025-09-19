@@ -1,7 +1,12 @@
 *{
+<<<<<<< HEAD
     max-width: 80%;
     font-family: 'Roboto';
     margin: auto;
+=======
+    max-width: 100%;
+    font-family: 'Roboto';
+>>>>>>> 87418d0ff8b074b785aa70a55e3a72eacf14abec
 }
 
 header{
