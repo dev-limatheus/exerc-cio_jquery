@@ -1,0 +1,80 @@
+*{
+    max-width: 80%;
+    font-family: 'Roboto';
+    margin: auto;
+}
+
+header{
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(77, 77, 221);
+    color: #fff;
+    border-bottom: 16px solid rgb(4, 78, 124);
+    border-radius: 16px;
+}
+
+header h1 {
+    margin: auto;
+    font-size: 46px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+header button{
+    margin-top: 8px;
+}
+
+#cancelar{
+    background-color: red;
+}
+
+form{
+    padding: 16px 0px;
+    background-color: rgb(215, 231, 245);
+    text-align: center;
+    border-radius: 16px;
+}
+
+input, button{
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    font-weight: bold;
+    border-radius: 16px;
+}
+
+button{
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
+}
+
+ul{
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 640px;
+    margin: auto;
+}
+
+ul li{
+    max-width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 8px;
+    list-style: none;
+    padding: 12px;
+    background-color: rgb(215, 231, 245);
+    border-radius: 16px;
+}
+
+#listas li { 
+    cursor: pointer; 
+} 
+    
+#listas li.done { 
+    text-decoration: line-through;
+}
+
+
+
